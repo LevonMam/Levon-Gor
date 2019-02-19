@@ -1,4 +1,4 @@
-nclude <iostream>
+#include <iostream>
 #include <string.h>
 using namespace std;
 
@@ -13,7 +13,7 @@ int  main () {
 string harcer (){
         int miavor = 0;
         string anun;
-        cout<< "Barev Dzez, inch e Dzer anuny? "<<endl;
+        cout<< "Barev inch e Dzer anuny? "<<endl;
         cin>>anun;
         cout << "Hargeli "<<anun<<"!" "Qani tarekan es"<<endl<<;
         cin>>anun;
